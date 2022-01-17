@@ -39,10 +39,14 @@ body {
  background-repeat: no-repeat;
 } */
 
+body {
+  margin: auto;
+}
 
 .background-image {
   background-image: url(https://parthadave2022.github.io/reach2022/10-downing-street.jpg);
-  width: 100%;
-  height: 100%;
-  background-size: auto;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
