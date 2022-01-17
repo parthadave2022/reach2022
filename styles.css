@@ -125,10 +125,17 @@ span {
 
 .add  {
   font: 16px!important;
-  background-color: black;
+  background-color: #007943;
   color: white;
   padding: 15px;
     font-family: 'Open Sans', sans-serif;
+        display: inline-block;
+        cursor: pointer;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
 li {
@@ -161,16 +168,45 @@ li {
 
 }
 
-.section-2 div {
+.section-2-boxes  {
   background-color: white;
   /* color: white; */
   padding: 50px;
   border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .section-2-header h2 {
   text-align: center;
   margin-top: 50px;
+}
+
+.section-2 h3 {
+  text-align: center;
+}
+
+.offer span {
+  margin: auto;
+}
+
+.offer {
+  padding-top: 0px!important;
+  text-align: center;
+}
+
+.code {
+  background-color: #d3d3d3;
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid #838383;
+  margin: 20px 0px;
+}
+
+.new-price {
+  font-size:22px;
+  color: #ff1212;;
+  font-weight: 700;
+  padding-top:=10px;
 }
 
 /*
