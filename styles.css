@@ -138,6 +138,10 @@ a {
   text-decoration: none;
 }
 
+.basket a {
+  color: black;
+}
+
 li {
   font-family: 'Open Sans', sans-serif;
 }
@@ -209,28 +213,40 @@ li {
   padding-top:=10px;
 }
 
-/*
-.logo img {
+@media screen and (min-width: 600px)  {
+  .background-image-grid {
+    grid-template-columns: 1fr;
+  }
 
-  width: 178px;
-  margin: auto;
-  display: block;
+  .logo-text {
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+  }
+
+  .basket {
+    margin: auto;
+    margin-top:50px;
+  }
+
+  .hero-wine img {
+    width: 450px;
+position: relative;
+top: 255px;
+left: 160px;
+  }
+
+  .section-1 {
+    display: none;
+  }
+
+  .section-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .add {
+    width: 50%;
+  }
 
 }
-
-
-
-.basket:hover {
-  background-color: black;
-  color: white;
-}
-
-body {
- background-image: url("https://parthadave2022.github.io/reach2022/background.jpg");
- background-size: auto;
- background-repeat: no-repeat;
-}
-
-body {
-  margin: auto;
-} */
