@@ -35,7 +35,7 @@ margin: auto;
 body {
   margin: auto;
   background-color: #f6f6f6;
-  font-family: 'Merriweather', serif;
+
       overflow-x: hidden;
 }
 
@@ -46,6 +46,7 @@ h1 {
   max-width: 60vw;
   margin: auto;
   margin-top:80px;
+  font-family: 'Merriweather', serif;
 }
 
 .basket {
@@ -91,6 +92,8 @@ p {
 
 h2 {
   font-size: 40px;
+  font-family: 'Merriweather', serif;
+
 }
 
 .section-1-left-detail {
@@ -214,7 +217,76 @@ li {
   padding-top:10px;
 }
 
+
+.timer {
+  background-color: #e33b12;
+    height: 120px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.timer-box {
+  width: 73%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.timer-content {
+  font-size: 50px;
+      line-height: 120px;
+          font-weight: 900;
+}
+
+.timer-detail {
+  font-size: 20px;
+  line-height: 110px;
+      text-align: left;
+
+}
+.order-in {
+  text-align: right;
+}
+
+
+
 @media screen and (max-width: 600px)  {
+
+  .timer-box {
+    width: 73%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+
+  }
+
+  .order-in {
+    text-align: center;
+  }
+
+  .timer-detail {
+    text-align: center;
+  }
+
+  .timer-content {
+    line-height: 0px;
+    font-size: 20px;
+  }
+
+  .timer {
+    height: 100%;
+  }
+
+
+
+  .section-2 {
+    width: 90vw;
+  }
+
+
   .background-image-grid {
     grid-template-columns: 1fr;
   }
