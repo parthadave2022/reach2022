@@ -36,6 +36,7 @@ body {
   margin: auto;
   background-color: #f6f6f6;
   font-family: 'Merriweather', serif;
+      overflow-x: hidden;
 }
 
 h1 {
@@ -210,10 +211,10 @@ li {
   font-size:22px;
   color: #ff1212;;
   font-weight: 700;
-  padding-top:=10px;
+  padding-top:10px;
 }
 
-@media screen and (min-width: 600px)  {
+@media screen and (max-width: 600px)  {
   .background-image-grid {
     grid-template-columns: 1fr;
   }
@@ -223,6 +224,13 @@ li {
   }
   h1 {
     text-align: center;
+    font-size: 28px;
+    margin-top: 40px;
+  }
+
+  .logo-text {
+    padding-top: 0px;
+    font-size: 12px;
   }
 
   .basket {
@@ -247,6 +255,16 @@ left: 160px;
 
   .add {
     width: 50%;
+  }
+
+  .hero-wine {
+    display: none;
+  }
+
+  .background-image {
+    height:60vh;
+    background-position: center;
+
   }
 
 }
